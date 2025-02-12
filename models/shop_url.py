@@ -1,5 +1,5 @@
 from odoo import models
-from odoo.addons.http_routing.models.ir_http import slug
+from odoo.tools import slugify as slug
 
 class ProductTemplate(models.Model):
     _inherit = "product.template"
